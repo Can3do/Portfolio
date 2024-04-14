@@ -1,17 +1,26 @@
+import { css } from '/public/icons';
+
 export const navLinks = [
 	{
 		name: 'Inicio',
 		url: '/',
-		id: 'inicio',
+		id: 'home',
 	},
 	{
 		name: 'Acerca de mí',
-		url: '#acerca-de-mi',
-		id: 'acerca-de-mi',
+		url: '#about',
+		id: 'about',
 	},
 	{
 		name: 'Proyectos',
-		url: '#proyectos',
-		id: 'proyectos',
+		url: '#projects',
+		id: 'projects',
+	},
+];
+
+export const Technologies = [
+	{
+		name: 'Javascript',
+		icon: css,
 	},
 ];
