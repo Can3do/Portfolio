@@ -14,6 +14,6 @@ This project was built using:
 
 - Tailwindcss
 - React.js
-- Nextjs
+- Next.js
 
 Mockup created with [Shot.so](https://shots.so/)<br/>
