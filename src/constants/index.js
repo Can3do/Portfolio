@@ -5,14 +5,14 @@ export const navLinks = [
 		id: 'home',
 	},
 	{
-		name: 'Acerca de mí',
-		url: '#about',
-		id: 'about',
-	},
-	{
 		name: 'Proyectos',
 		url: '#projects',
 		id: 'projects',
+	},
+	{
+		name: 'Acerca de mí',
+		url: '#about',
+		id: 'about',
 	},
 ];
 

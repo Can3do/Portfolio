@@ -1,47 +1,21 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { navLinks } from '@/constants';
 import styles from './styles.module.css';
 
 const Navigation = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-	const headerVariants = {
-		closed: {
-			height: '5rem',
-		},
-		open: {
-			height: isMenuOpen ? 'auto' : '5rem',
-			transition: {
-				type: 'tween',
-				staggerChildren: 0.3,
-			},
-		},
-	};
-
-	const linkVariants = {
-		closed: {
-			opacity: 0,
-			transition: { duration: 0 },
-		},
-		open: {
-			opacity: isMenuOpen ? 1 : 0,
-			transition: { duration: 0.3 },
-		},
-	};
-
 	return (
 		<>
-			<motion.header
-				className={`box-border flex items-stretch justify-center overflow-hidden border-b border-zinc-600 `}
-				layout
+			<header
+				className={`sticky left-0 right-0 top-0 box-border flex items-stretch justify-center border-b border-zinc-600 bg-zinc-950/90 backdrop-blur-md`}
 			>
 				<div
 					className={`flex w-full max-w-7xl flex-col items-center justify-between px-6 sm:px-16 md:flex-row`}
 				>
-					<div className='flex min-h-[5rem] w-full items-center justify-between'>
+					<div className='flex min-h-[4rem] w-full items-center justify-between'>
 						<Link
 							href={'/'}
 							className='text-xl font-bold text-zinc-200'
@@ -78,7 +52,7 @@ const Navigation = () => {
 						{/* navegacion de telefono */}
 
 						<div
-							className={`${styles.menu_mobile} absolute left-0 top-[5rem] z-30 flex w-full overflow-hidden border-b  border-zinc-700 bg-zinc-950 px-6 sm:px-16 md:hidden`}
+							className={`${styles.menu_mobile} absolute left-0 top-[4rem] z-30 flex w-full overflow-hidden border-zinc-700 bg-zinc-950 px-6 sm:px-16 md:hidden`}
 							aria-expanded={isMenuOpen}
 						>
 							<ul className='flex w-full flex-col items-start gap-8  py-[3rem] '>
@@ -93,7 +67,7 @@ const Navigation = () => {
 									>
 										<Link
 											href={link.url}
-											className='text-3xl font-bold text-zinc-300 hover:text-white focus:text-white'
+											className='h-full w-full text-3xl font-bold text-zinc-300 hover:text-white focus:text-white'
 										>
 											{`${link.name}.`}
 										</Link>
@@ -114,7 +88,7 @@ const Navigation = () => {
 									>
 										<Link
 											href={link.url}
-											className='text-lg font-semibold text-zinc-300 hover:text-white'
+											className='text-l font-normal text-zinc-300 hover:text-white'
 										>
 											{link.name}
 										</Link>
@@ -124,7 +98,7 @@ const Navigation = () => {
 						</div>
 					</nav>
 				</div>
-			</motion.header>
+			</header>
 		</>
 	);
 };
