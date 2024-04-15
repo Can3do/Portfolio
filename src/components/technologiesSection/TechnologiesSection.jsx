@@ -1,25 +1,35 @@
+import {
+	HtmlIcon,
+	CssIcon,
+	FigmaIcon,
+	GithubIcon,
+	GitIcon,
+	JavascriptIcon,
+	NextjsIcon,
+	ReactIcon,
+	TailwindIcon,
+} from '@/components/icons';
+
 const TechnologiesSection = () => {
 	return (
 		<section className='section'>
-			<div className='flex w-full flex-col gap-8'>
+			<div className='flex w-full flex-col gap-12'>
 				<div>
 					<h2 id='projects' className='text-5xl font-semibold'>
 						Tecnologías.
 					</h2>
 				</div>
-				<div className='flex flex-col flex-wrap items-center justify-center gap-8 py-12 md:flex-row'>
-					<div className='flex flex-col items-center gap-4 rounded-3xl bg-zinc-900 px-12 py-8'>
-						<h3 className='text-center text-3xl font-semibold'>
-							Frontend
-						</h3>
-						<div className='flex max-w-[20rem] flex-wrap justify-center gap-4 p-4'>
-							<div className='h-[80px] w-[80px] rounded-full bg-blue-500'></div>
-							<div className='h-[80px] w-[80px] rounded-full bg-blue-500'></div>
-							<div className='h-[80px] w-[80px] rounded-full bg-blue-500'></div>
-							<div className='h-[80px] w-[80px] rounded-full bg-blue-500'></div>
-							<div className='h-[80px] w-[80px] rounded-full bg-blue-500'></div>
-							<div className='h-[80px] w-[80px] rounded-full bg-blue-500'></div>
-						</div>
+				<div className='flex flex-wrap justify-start'>
+					<div className='flex flex-wrap justify-center gap-5'>
+						<HtmlIcon height={60} width={60} />
+						<CssIcon height={60} width={60} />
+						<TailwindIcon height={60} width={60} />
+						<JavascriptIcon height={60} width={60} />
+						<ReactIcon height={60} width={60} />
+						<NextjsIcon height={60} width={60} />
+						<GitIcon height={60} width={60} />
+						<GithubIcon height={60} width={60} />
+						<FigmaIcon height={60} width={60} />
 					</div>
 				</div>
 			</div>

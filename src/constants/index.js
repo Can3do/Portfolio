@@ -1,5 +1,3 @@
-import { css } from '/public/icons';
-
 export const navLinks = [
 	{
 		name: 'Inicio',
@@ -21,6 +19,6 @@ export const navLinks = [
 export const Technologies = [
 	{
 		name: 'Javascript',
-		icon: css,
+		icon: '/src/assets/icons/css.svg',
 	},
 ];
