@@ -16,10 +16,11 @@ const TechnologiesSection = () => {
 								key={tech.name}
 								className='p-4 flex flex-col items-center rounded-2xl gap-3'
 								style={{
+									border: `1px solid ${tech.color + '99'}`,
 									backgroundColor: tech.color + '12', //agrego 12 para agregar transparecia (lo combierto en un color de 8 digitos)
 								}}
 							>
-								<p className='font-normal'>{tech.name}</p>
+								<p className='font-medium'>{tech.name}</p>
 								<tech.icon
 									className={`w-10 h-10`}
 									style={{ color: tech.color }}

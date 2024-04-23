@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='es'>
 			<body
-				className={` ${inter.className}  relative bg-zinc-950 text-white `}
+				className={` ${inter.className}  relative bg-zinc-950 text-zinc-300`}
 			>
 				<Navigation />
 				{children}

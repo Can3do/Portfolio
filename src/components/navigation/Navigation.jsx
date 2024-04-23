@@ -10,7 +10,7 @@ const Navigation = () => {
 	return (
 		<>
 			<header
-				className={`sticky left-0 right-0 top-0 min-h-[4rem] box-border flex items-stretch justify-center border-b border-zinc-600 bg-zinc-950/90 backdrop-blur-md`}
+				className={`sticky left-0 right-0 top-0 min-h-[4rem] box-border flex items-stretch justify-center border-b border-zinc-600 bg-zinc-950/90 backdrop-blur-md z-50`}
 			>
 				<div
 					className={`flex w-full max-w-7xl items-center ms-6 md:px-16 `}
@@ -62,7 +62,7 @@ const Navigation = () => {
 									>
 										<Link
 											href={link.url}
-											className='h-full w-full text-xl font-bold text-zinc-300 hover:text-white focus:text-white'
+											className='h-full w-full text-xl font-normal text-zinc-300 hover:text-white focus:text-white'
 										>
 											{`${link.name}.`}
 										</Link>
