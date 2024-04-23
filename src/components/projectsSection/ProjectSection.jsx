@@ -3,7 +3,7 @@ const ProjectsSection = () => {
 		<section className='section' id='projects'>
 			<div className='flex w-full flex-col gap-8'>
 				<div>
-					<h2 className='text-5xl font-semibold'>Proyectos.</h2>
+					<h2 className='text-4xl font-medium'>Proyectos.</h2>
 				</div>
 
 				<div className='flex flex-row gap-4 overflow-y-auto'>

@@ -24,13 +24,13 @@ const HeroSection = () => {
 				<div className='flex w-full  gap-4 sm:w-[auto] flex-row items-center justify-start'>
 					<Link
 						href='#projects'
-						className={` text-md rounded-full  border-blue-400 bg-blue-700/20 px-6 py-3 font-normal  hover:bg-blue-700/30`}
+						className={` text-md rounded-full bg-sky-500/40 px-6 py-3 font-normal  hover:bg-sky-700/50 transition-colors`}
 					>
 						Ver proyectos
 					</Link>
 					<Link
 						href=''
-						className='text-md rounded-full  border-green-400 bg-green-700/20 px-6 py-3 font-normal  hover:bg-green-700/30'
+						className='text-md rounded-full bg-emerald-500/40 px-6 py-3 font-normal  hover:bg-emerald-700/50 transition-colors'
 					>
 						Contáctame
 					</Link>

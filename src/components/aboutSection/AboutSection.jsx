@@ -3,7 +3,7 @@ const AboutSection = () => {
 		<section className='section'>
 			<div className='flex w-full flex-col gap-8'>
 				<div>
-					<h2 id='about' className='text-5xl font-semibold'>
+					<h2 id='about' className='text-4xl font-medium'>
 						Acerca de mí.
 					</h2>
 				</div>

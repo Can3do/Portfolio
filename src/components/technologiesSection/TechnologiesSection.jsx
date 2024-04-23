@@ -5,7 +5,7 @@ const TechnologiesSection = () => {
 		<section className='section' id='tech'>
 			<div className='flex w-full flex-col gap-12'>
 				<div>
-					<h2 id='projects' className='text-5xl font-semibold'>
+					<h2 id='projects' className='text-4xl font-medium'>
 						Tecnologías.
 					</h2>
 				</div>
@@ -13,6 +13,7 @@ const TechnologiesSection = () => {
 					<div className='flex flex-wrap  gap-5'>
 						{technologies.map((tech) => (
 							<div
+								key={tech.name}
 								className='p-4 flex flex-col items-center rounded-2xl gap-3'
 								style={{
 									backgroundColor: tech.color + '12', //agrego 12 para agregar transparecia (lo combierto en un color de 8 digitos)
