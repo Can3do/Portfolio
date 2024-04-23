@@ -1,18 +1,8 @@
-import {
-	HtmlIcon,
-	CssIcon,
-	FigmaIcon,
-	GithubIcon,
-	GitIcon,
-	JavascriptIcon,
-	NextjsIcon,
-	ReactIcon,
-	TailwindIcon,
-} from '@/components/icons';
+import { technologies } from '@/constants';
 
 const TechnologiesSection = () => {
 	return (
-		<section className='section'>
+		<section className='section' id='tech'>
 			<div className='flex w-full flex-col gap-12'>
 				<div>
 					<h2 id='projects' className='text-5xl font-semibold'>
@@ -20,16 +10,21 @@ const TechnologiesSection = () => {
 					</h2>
 				</div>
 				<div className='flex flex-wrap justify-start'>
-					<div className='flex flex-wrap justify-center gap-5'>
-						<HtmlIcon height={60} width={60} />
-						<CssIcon height={60} width={60} />
-						<TailwindIcon height={60} width={60} />
-						<JavascriptIcon height={60} width={60} />
-						<ReactIcon height={60} width={60} />
-						<NextjsIcon height={60} width={60} />
-						<GitIcon height={60} width={60} />
-						<GithubIcon height={60} width={60} />
-						<FigmaIcon height={60} width={60} />
+					<div className='flex flex-wrap  gap-5'>
+						{technologies.map((tech) => (
+							<div
+								className='p-4 flex flex-col items-center rounded-2xl gap-3'
+								style={{
+									backgroundColor: tech.color + '12', //agrego 12 para agregar transparecia (lo combierto en un color de 8 digitos)
+								}}
+							>
+								<p className='font-normal'>{tech.name}</p>
+								<tech.icon
+									className={`w-10 h-10`}
+									style={{ color: tech.color }}
+								/>
+							</div>
+						))}
 					</div>
 				</div>
 			</div>

@@ -32,7 +32,7 @@
 }
 
 .menu_mobile[aria-expanded='true'] {
-	max-height: 300px;
+	max-height: 400px;
 	border-bottom: 1px solid rgb(63 63 70);
 }
 
