@@ -19,11 +19,11 @@ const ProjectsSection = () => {
 							className='flex flex-col space-x-0 space-y-8 md:flex-row md:space-x-8 md:space-y-0'
 							key={title}
 						>
-							<div className='w-full md:w-1/2'>
+							<div className='w-full md:w-[35%]'>
 								<div className='relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50 h-56'>
 									<Image
 										alt={title}
-										className='object-cover object-top w-full transition duration-500 sm:h-full md:scale-110 '
+										className='object-cover object-top  transition duration-500 h-full md:scale-110 '
 										src={image}
 										width={1200}
 										height={600}

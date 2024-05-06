@@ -11,7 +11,7 @@ const HeroSection = () => {
 			<div className='flex flex-col gap-8'>
 				<div className='flex flex-col gap-4'>
 					<h1
-						className={`${playfair.className} text-6xl md:text-8xl font-noramal text-zinc-300 `}
+						className={`${playfair.className} text-6xl md:text-7xl font-noramal text-zinc-300 `}
 					>
 						¡Hola! Soy Juan Pablo Canedo{' '}
 						<span className='bg-gradient-to-r from-rose-500 to-indigo-600 bg-clip-text text-transparent '>
@@ -19,7 +19,7 @@ const HeroSection = () => {
 						</span>
 					</h1>
 
-					<p className=' text-xl font-normal text-zinc-300 max-w-2xl'>
+					<p className=' text-lg font-normal text-zinc-300 max-w-2xl'>
 						Nuevo en la industria. de Montevideo, Uruguay. Me gusta
 						crear productos sólidos y buenas experiencias de usuario
 					</p>
