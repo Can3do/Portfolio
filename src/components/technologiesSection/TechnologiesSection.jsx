@@ -6,7 +6,7 @@ const TechnologiesSection = () => {
 			<div className='flex w-full flex-col gap-12'>
 				<div>
 					<h2 id='projects' className='text-4xl font-medium'>
-						Tecnologías.
+						Tecnologías
 					</h2>
 				</div>
 				<div className='flex flex-wrap justify-start'>

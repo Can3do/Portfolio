@@ -6,12 +6,19 @@ import {
 	FaFigma,
 	FaGithub,
 } from 'react-icons/fa6';
-import { SiTailwindcss, SiNextdotjs, SiJavascript } from 'react-icons/si';
+
+import {
+	SiTailwindcss,
+	SiNextdotjs,
+	SiJavascript,
+	SiTypescript,
+	SiShadcnui,
+} from 'react-icons/si';
 
 export const navLinks = [
 	{
 		name: 'Inicio',
-		url: '/',
+		url: '#home',
 		id: 'home',
 	},
 	{
@@ -53,6 +60,11 @@ export const technologies = [
 		color: '#f0dc55',
 	},
 	{
+		name: 'TypeScript',
+		icon: SiTypescript,
+		color: '#377cc8',
+	},
+	{
 		name: 'React',
 		icon: FaReact,
 		color: '#149eca',
@@ -71,5 +83,44 @@ export const technologies = [
 		name: 'Figma',
 		icon: FaFigma,
 		color: '#eb4c1d',
+	},
+];
+
+export const tags = {
+	next: {
+		name: 'Next.js',
+		background: '#000',
+		color: '#fff',
+		icon: SiNextdotjs,
+	},
+	tailwind: {
+		name: 'Tailwind CSS',
+		background: '#003159',
+		color: '#fff',
+		icon: SiTailwindcss,
+	},
+	typescript: {
+		name: 'TypeScript',
+		background: '#377cc8',
+		color: '#fff',
+		icon: SiTypescript,
+	},
+	shadcnui: {
+		name: 'shadcn/ui',
+		background: '#000',
+		color: '#fafafa',
+		icon: SiShadcnui,
+	},
+};
+
+export const projects = [
+	{
+		title: 'ToDo List',
+		description:
+			'Aplicacion web de lista de tareas desarrollada en NextJs, los datos se guardan localmente en el cliente y cuenta con las funcionalidades de crear, editar y eliminar entradas',
+		link: 'https://to-do-list-jpc.vercel.app/',
+		github: 'https://github.com/Can3do/ToDo-List',
+		image: '/project-todolist.png',
+		tags: [tags.next, tags.tailwind, tags.typescript, tags.shadcnui],
 	},
 ];

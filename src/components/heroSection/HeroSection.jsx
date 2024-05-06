@@ -19,23 +19,23 @@ const HeroSection = () => {
 						</span>
 					</h1>
 
-					<p className=' text-xl font-normal text-zinc-300'>
-						Me gusta crear productos sólidos y buenas experiencias
-						de usuario
+					<p className=' text-xl font-normal text-zinc-300 max-w-2xl'>
+						Nuevo en la industria. de Montevideo, Uruguay. Me gusta
+						crear productos sólidos y buenas experiencias de usuario
 					</p>
 				</div>
 
 				<div className='flex w-full  gap-4 sm:w-[auto] flex-row items-center justify-start'>
 					<Link
-						href='#projects'
-						className='text-md rounded-full bg-rose-600/30 px-6 py-3 font-normal  hover:bg-rose-500/50 transition-colors border border-rose-400 box-border flex items-center gap-2 text-rose-100'
+						href='#'
+						className='text-md rounded-full bg-rose-600/30 px-6 py-2 font-normal  hover:bg-rose-500/50 transition-colors  box-border flex items-center gap-2 text-rose-100'
 					>
-						<IoFolder />
-						Ver proyectos
+						<FaLinkedinIn />
+						LInkedin
 					</Link>
 					<Link
 						href=''
-						className='text-md rounded-full bg-indigo-600/30 px-6 py-3 font-normal  hover:bg-indigo-500/50 transition-colors border border-indigo-400 box-border flex items-center gap-2 text-indigo-100'
+						className='text-md rounded-full bg-indigo-600/30 px-6 py-2 font-normal  hover:bg-indigo-500/50 transition-colors box-border flex items-center gap-2 text-indigo-100'
 					>
 						<IoMail className=' w-5 h-5' />
 						Contáctame
@@ -43,12 +43,6 @@ const HeroSection = () => {
 				</div>
 
 				<div className='flex gap-4 justify-start '>
-					<Link
-						href='https://www.linkedin.com/in/juan-pablo-canedo/'
-						target='_blank'
-					>
-						<FaLinkedinIn className='w-10 h-10' />
-					</Link>
 					<Link href='https://github.com/Can3do' target='_blank'>
 						<FaGithubAlt className='w-10 h-10' />
 					</Link>

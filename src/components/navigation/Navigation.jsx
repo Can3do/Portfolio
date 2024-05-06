@@ -10,7 +10,7 @@ const Navigation = () => {
 	return (
 		<>
 			<header
-				className={`sticky left-0 right-0 top-0 min-h-[4rem] box-border flex items-stretch justify-center border-b border-zinc-600 bg-zinc-950/90 backdrop-blur-md z-50`}
+				className={`sticky left-0 right-0 top-0 min-h-[4rem] box-border flex items-stretch justify-center bg-zinc-950/70 backdrop-blur-lg z-50`}
 			>
 				<div
 					className={`flex w-full max-w-7xl items-center ms-6 md:px-16 `}

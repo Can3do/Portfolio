@@ -4,7 +4,7 @@ const AboutSection = () => {
 			<div className='flex w-full flex-col gap-8'>
 				<div>
 					<h2 id='about' className='text-4xl font-medium'>
-						Acerca de mí.
+						Acerca de mí
 					</h2>
 				</div>
 				<div className='flex'>
