@@ -52,7 +52,7 @@ export const technologies = [
 	{
 		name: 'Tailwind',
 		icon: SiTailwindcss,
-		color: '#38bdf8',
+		color: '#36b7f0',
 	},
 	{
 		name: 'Javascipt',
@@ -95,7 +95,7 @@ export const tags = {
 	},
 	tailwind: {
 		name: 'Tailwind CSS',
-		background: '#003159',
+		background: '#36b7f0aa',
 		color: '#fff',
 		icon: SiTailwindcss,
 	},
@@ -115,7 +115,7 @@ export const tags = {
 
 export const projects = [
 	{
-		title: 'ToDo List',
+		title: 'ToDo App',
 		description:
 			'Aplicacion web de lista de tareas desarrollada en NextJs, los datos se guardan localmente en el cliente y cuenta con las funcionalidades de crear, editar y eliminar entradas',
 		link: 'https://to-do-list-jpc.vercel.app/',
