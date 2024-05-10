@@ -21,15 +21,17 @@ const ProjectsSection = () => {
 							key={title}
 						>
 							<div className='w-full lg:w-[40%]'>
-								<div className='overflow-clip rounded-xl h-56 border'>
-									<Image
-										alt={title}
-										className='object-cover object-top'
-										src={image}
-										width={1200}
-										height={600}
-									/>
-								</div>
+								<Link href={link} target='_blank'>
+									<div className='overflow-clip rounded-xl h-56 border'>
+										<Image
+											alt={title}
+											className='object-cover object-top'
+											src={image}
+											width={1200}
+											height={600}
+										/>
+									</div>
+								</Link>
 							</div>
 
 							<div className='w-full md:max-w-lg'>
