@@ -115,12 +115,12 @@ export const tags = {
 
 export const projects = [
 	{
-		title: 'ToDo App',
+		title: 'Tasks App',
 		description:
 			'Aplicacion web de lista de tareas desarrollada en NextJs, los datos se guardan localmente en el cliente y cuenta con las funcionalidades de crear, editar y eliminar entradas',
-		link: 'https://to-do-list-jpc.vercel.app/',
-		github: 'https://github.com/Can3do/ToDo-List',
-		image: '/project-todolist.png',
+		link: 'https://tasks-app-jpc.vercel.app/',
+		github: 'https://github.com/Can3do/tasks-app',
+		image: '/project-tasksApp.png',
 		tags: [tags.next, tags.tailwind, tags.typescript, tags.shadcnui],
 	},
 ];
