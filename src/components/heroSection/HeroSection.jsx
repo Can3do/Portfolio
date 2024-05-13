@@ -20,8 +20,8 @@ const HeroSection = () => {
 					</h1>
 
 					<p className=' text-lg font-normal text-zinc-300 max-w-2xl'>
-						Nuevo en la industria. de Montevideo, Uruguay. Me gusta
-						buenas experiencias de usuario
+						Junior. de Montevideo, Uruguay. Me gusta crear buenas
+						experiencias de usuario
 					</p>
 				</div>
 

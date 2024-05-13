@@ -36,6 +36,11 @@ export const navLinks = [
 		url: '#tech',
 		id: 'tech',
 	},
+	{
+		name: 'Contacto',
+		url: '#contact',
+		id: 'contact',
+	},
 ];
 
 export const technologies = [
