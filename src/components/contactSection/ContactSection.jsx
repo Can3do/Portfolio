@@ -7,10 +7,11 @@ const ContactSection = () => {
 						Contacto
 					</h2>
 				</div>
-				<div className='flex'>{/* TO DO */}</div>
+				<div className='flex'><p>No busco ser contactado por el momento</p></div>
 			</div>
 		</section>
 	);
+	
 };
 
 export default ContactSection;
