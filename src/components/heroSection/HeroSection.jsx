@@ -21,7 +21,7 @@ const HeroSection = () => {
 
 					<p className=' text-lg font-normal text-zinc-300 max-w-2xl'>
 						Nuevo en la industria. de Montevideo, Uruguay. Me gusta
-						crear productos sólidos y buenas experiencias de usuario
+						buenas experiencias de usuario
 					</p>
 				</div>
 
