@@ -128,4 +128,13 @@ export const projects = [
 		image: '/project-tasksApp.png',
 		tags: [tags.next, tags.tailwind, tags.typescript, tags.shadcnui],
 	},
+	{
+		title: 'FB Soluciones Inmobiliarias',
+		description:
+			'Web para una inmobiliaria local desarrollada en WordPress. Esta plataforma permite a la inmobiliaria administrar propiedades de manera eficiente. Los clientes pueden buscar y visualizar detalles de propiedades, además de contactar directamente con la agente para más información. La web es fácil de navegar, con un diseño atractivo y optimizado para dispositivos móviles.',
+		link: 'https://fbsolucionesinmobiliarias.com.uy/',
+		github: null,
+		image: '/project-fbsolucionesinmobiliarias.png',
+		tags: [],
+	},
 ];
